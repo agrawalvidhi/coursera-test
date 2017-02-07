@@ -1,0 +1,62 @@
+body{
+	margin:0;
+	font-size: 16px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#header-nav{
+	background-color: 	#FAEBD7	;
+	margin: 0;
+	border-radius: 0;
+	border-width: 0;
+	border-bottom: 1px solid black;
+
+}
+.navbar-brand h1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #191970;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #ADD8E6;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+ button.navbar-toggle, .icon-bar{
+	border:1px solid #61122f;
+}
+ button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+h2{
+
+	padding-bottom: 15px;
+	
+}
+#main-content .container{
+	background-color: #FAEBD7;
+
+}
+#main{
+	text-align: left;
+}
+
+@media(max-width: 767px){
+	#collapsable-nav {
+		font-size: 1.2em;
+	}
+	#collapsable-nav li{
+		text-align: center;
+		background-color: #191970;
+		color: #FAEBD7;
+	}
+	#nav-list li:hover{
+		background-color: #FAEBD7;
+		color: #191970;
+}
